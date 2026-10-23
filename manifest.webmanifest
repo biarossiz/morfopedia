@@ -1,0 +1,12 @@
+{
+  "name": "Morfopedia — Etimologia da nomenclatura anatômica",
+  "short_name": "Morfopedia",
+  "description": "Dicionário etimológico de termos de Anatomia, Histologia e Embriologia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f4",
+  "theme_color": "#2e4a5e",
+  "lang": "pt-BR",
+  "icons": [{ "src": "assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
