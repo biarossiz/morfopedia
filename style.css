@@ -1,8 +1,8 @@
 /* ===== Morfopedia — estilo ===== */
 /* Fontes locais (SIL Open Font License) — funcionam off-line */
-@font-face { font-family: 'Fraunces'; src: url('../fonts/fraunces.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Fraunces'; src: url('../fonts/fraunces-italic.woff2') format('woff2'); font-weight: 100 900; font-style: italic; font-display: swap; }
-@font-face { font-family: 'Montserrat'; src: url('../fonts/montserrat.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fraunces'; src: url('fraunces.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fraunces'; src: url('fraunces-italic.woff2') format('woff2'); font-weight: 100 900; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Montserrat'; src: url('montserrat.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
 :root {
   --bg: #fbf8f4;
   --bg-2: #f3eee6;

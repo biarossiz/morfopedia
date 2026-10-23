@@ -1,8 +1,8 @@
 /* Service worker: deixa o dicionário disponível off-line após o primeiro acesso. */
-const CACHE = 'morfopedia-v1';
-const SHELL = ['./', 'index.html', 'assets/css/style.css', 'assets/js/app.js', 'assets/js/icons.js', 'assets/js/data.js',
-  'assets/img/icon.svg', 'assets/img/epm.png', 'assets/img/unifesp.png', 'manifest.webmanifest',
-  'assets/fonts/fraunces.woff2', 'assets/fonts/fraunces-italic.woff2', 'assets/fonts/montserrat.woff2'];
+const CACHE = 'morfopedia-v2';
+const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'icons.js', 'data.js',
+  'icon.svg', 'epm.png', 'unifesp.png', 'manifest.webmanifest',
+  'fraunces.woff2', 'fraunces-italic.woff2', 'montserrat.woff2'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)));

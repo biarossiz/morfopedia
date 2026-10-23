@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morfopedia · Etimologia da nomenclatura anatômica</title>
+  <meta name="description" content="Morfopedia: dicionário etimológico da nomenclatura anatômica e médica. Busca por termo, órgão/sistema ou região do corpo, com raízes gregas e latinas, resumo e fontes.">
+  <meta name="theme-color" content="#2e4a5e">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#/" aria-label="Página inicial">
+        <img src="icon.svg" alt="" width="38" height="38">
+        <span>
+          <strong>Morfopedia</strong>
+          <small>Etimologia da nomenclatura anatômica</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#/" data-nav="home">Pesquisa</a>
+        <a href="#/organograma" data-nav="organograma">Organograma</a>
+        <a href="#/requisitos" data-nav="requisitos">Requisitos</a>
+        <a href="#/sobre" data-nav="sobre">Sobre e fontes</a>
+      </nav>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p class="notice">Ative o JavaScript para usar o dicionário.</p></noscript>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Morfopedia</strong>
+        <p>Fontes: <em>Dicionário etimológico de termos médicos</em> — Manuel de Jesus Simões (2008); <em>Dicionário de etimologia de termos morfológicos</em> — Simões RS et al., EPM/UNIFESP (2014).</p>
+      </div>
+      <div class="footer__logos">
+        <img src="epm.png" alt="Escola Paulista de Medicina" height="40">
+        <img src="unifesp.png" alt="UNIFESP" height="40">
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
